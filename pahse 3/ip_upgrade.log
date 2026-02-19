@@ -1,0 +1,79 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Feb 16 19:48:07 2026
+| Host         : Abishek running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'cnn_bd_cnn_accel_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of cnn_bd_cnn_accel_0_0 (xilinx.com:user:cnn_accel:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Feb 16 19:41:26 2026
+| Host         : Abishek running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'cnn_bd_cnn_accel_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of cnn_bd_cnn_accel_0_0 (xilinx.com:user:cnn_accel:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Feb 16 15:07:59 2026
+| Host         : Abishek running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'cnn_bd_cnn_accel_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of cnn_bd_cnn_accel_0_0 (xilinx.com:user:cnn_accel:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Feb 16 15:01:36 2026
+| Host         : Abishek running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'cnn_bd_cnn_accel_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of cnn_bd_cnn_accel_0_0 (xilinx.com:user:cnn_accel:1.0) from (Rev. 2) to (Rev. 3)
+
