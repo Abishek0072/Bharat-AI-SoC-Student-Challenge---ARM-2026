@@ -1,0 +1,29 @@
+2026-02-19T16:45:07.602674500255-16:45:07 **** Incremental Build of configuration Debug for project cnn_app ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/FPGA_CNN_PROJECT/PHASE_4_VITIS/cnn_platform/export/cnn_platform/sw/cnn_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-In file included from ../src/main.c:4:
+000/cnn_platform/export/cnn_platform/sw/cnn_platform/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-D:/FPGA_CNN_PROJECT/PHASE_4_VITIS/cnn_platform/export/cnn_platform/sw/cnn_platform/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: cnn_app.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/FPGA_CNN_PROJECT/PHASE_4_VITIS/cnn_platform/export/cnn_platform/sw/cnn_platform/standalone_domain/bsplib/lib -o "cnn_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: cnn_app.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size cnn_app.elf  |tee "cnn_app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  34036	   1544	  33528	  69108	  10df4	cnn_app.elf
+000-'Finished building: cnn_app.elf.size'
+000-' '
+00255-
+16:45:08 Build Finished (took 1s.156ms)
+
