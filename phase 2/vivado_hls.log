@@ -1,0 +1,37 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'asus' on host 'abishek' (Windows NT_amd64 version 6.2) on Sun Feb 15 22:53:54 +0530 2026
+INFO: [HLS 200-10] In directory 'D:/FPGA_CNN_PROJECT/PHASE_2_VITIS_HLS'
+Sourcing Tcl script 'D:/FPGA_CNN_PROJECT/PHASE_2_VITIS_HLS/cnn_hls/solution1/export.tcl'
+INFO: [HLS 200-10] Opening project 'D:/FPGA_CNN_PROJECT/PHASE_2_VITIS_HLS/cnn_hls'.
+WARNING: [HLS 200-40] No D:/FPGA_CNN_PROJECT/PHASE_2_VITIS_HLS/cnn_hls/solution2/solution2.aps file found.
+WARNING: [HLS 200-40] No D:/FPGA_CNN_PROJECT/PHASE_2_VITIS_HLS/cnn_hls/solution_clean/solution_clean.aps file found.
+INFO: [HLS 200-10] Opening solution 'D:/FPGA_CNN_PROJECT/PHASE_2_VITIS_HLS/cnn_hls/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+bad lexical cast: source type value could not be interpreted as target
+    while executing
+"rdi::set_property core_revision 2602152253 {component component_1}"
+    invoked from within
+"set_property core_revision $Revision $core"
+    (file "run_ippack.tcl" line 1086)
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 15 22:54:10 2026...
+ERROR: [IMPL 213-28] Failed to generate IP.
+command 'ap_source' returned error code
+    while executing
+"source D:/FPGA_CNN_PROJECT/PHASE_2_VITIS_HLS/cnn_hls/solution1/export.tcl"
+    invoked from within
+"hls::main D:/FPGA_CNN_PROJECT/PHASE_2_VITIS_HLS/cnn_hls/solution1/export.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"
